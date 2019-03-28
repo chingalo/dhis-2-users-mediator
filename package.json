@@ -1,0 +1,35 @@
+{
+  "name": "user-upload-mediator",
+  "version": "1.0.0",
+  "description": "Script for uploading user on dhis 2 instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chingalo/dhis-2-users-mediator.git"
+  },
+  "keywords": [
+    "dhis",
+    "2"
+  ],
+  "dependencies": {
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "lodash": "^4.17.10",
+    "promise": "^8.0.1",
+    "request": "^2.88.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "author": "Joseph Chingalo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/chingalo/dhis-2-users-mediator/issues"
+  },
+  "homepage": "https://github.com/chingalo/dhis-2-users-mediator#readme"
+}
